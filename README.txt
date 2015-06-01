@@ -1,5 +1,7 @@
 WHERE ARE THEY? (W.A.T.) - Android Application
 
+01 June 2015
+
 authors: Fabio Dolci - fabiodolci87@gmail.com
          Mirko Nespoli - mirkonespoli@gmail.com
 
@@ -8,6 +10,7 @@ PRE-REQUISITIES
 - Enable Third Part Apps Installation on Android
 - (If you want to modify/run from Android Studio): Enable USB debugging
 - If you want to store on your own server, you need a server running Apache and mysqli
+- In order to run the server it is necessary to create an empty folder into src/server/imgupload called "uploadedimages"
 
 HOW TO RUN THE SOFTWARE
 - Install the APK file (/bin) on the phone and run it
