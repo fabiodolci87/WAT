@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="nespoli.dolci.wat.CoordMenu"
+    android:background="@mipmap/back">
+    <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_map"
+            android:id="@+id/button_map_coord"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/take_me"
+            android:id="@+id/button_take_coord"
+            android:layout_below="@+id/button_map_coord"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/itinerary"
+            android:id="@+id/button_itinerary_coord"
+            android:layout_below="@+id/button_take_coord"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comments"
+            android:id="@+id/button_comments_coord"
+            android:layout_below="@+id/button_itinerary_coord"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/list_user"
+            android:id="@+id/button_list_users"
+            android:layout_below="@+id/button_comments_coord"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_logout"
+            android:id="@+id/button_end"
+            android:background="#ffff0000"
+            android:layout_marginBottom="89dp"
+            android:layout_above="@+id/numberUsers"
+            android:layout_centerHorizontal="true" />
+
+<<<<<<< .working
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Users:"
+            android:id="@+id/numberUsers"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/coord_view"
+            android:layout_alignEnd="@+id/coord_view" />
+
+</RelativeLayout>=======
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_logout"
+        android:id="@+id/button_end"
+        android:background="#ffff0000"
+        android:layout_below="@+id/button_list_users"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Users:"
+        android:id="@+id/numberUsers"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/coord_view"
+        android:layout_alignEnd="@+id/coord_view" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMOVE GROUP"
+        android:id="@+id/button_remove"
+        android:layout_alignBaseline="@+id/numberUsers"
+        android:layout_alignBottom="@+id/numberUsers"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+>>>>>>> .new
+-->
+</RelativeLayout>

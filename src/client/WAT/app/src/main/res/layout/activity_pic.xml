@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/back" >
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@+id/buttonLoadPicture">
+
+    <Button
+        android:id="@+id/button_selectpic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="LOAD PICTURE FROM THE PHONE"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_purple"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="TAKE A PHOTO"
+        android:id="@+id/buttonPhoto"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="@android:color/holo_purple"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id='@+id/buttonLoadPicture'
+        android:text="Submit Picture"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_purple"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UPLOAD A PICTURE"
+        android:id="@+id/textView6"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

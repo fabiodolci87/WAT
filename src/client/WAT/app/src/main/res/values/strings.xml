@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">WAT</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="username_textview">Username:</string>
+    <string name="password_textview">Password:</string>
+    <string name="submit">Submit</string>
+    <string name="post_comment">Post Comment</string>
+    <string name="read_comments_title">Recent Comments</string>
+    <string name="title_activity_register">REGISTER</string>
+    <string name="title_activity_add_comment">ADD COMMENTS</string>
+    <string name="title_activity_read_comments">READ COMMENTSs</string>
+    <string name="title_activity_jsonparser">JPARSER</string>
+    <string name="title_activity_join_group">JoinGroup</string>
+    <string name="title_activity_create_group">CreateGroup</string>
+    <string name="title_activity_user_menu">UserMenu</string>
+
+    <string name="passwords_not_same">Passwords don\'t match</string>
+    <string name="title_activity_join_create">JoinCreate</string>
+    <string name="Welcome">Welcome</string>
+    <string name="join_button">Join a group</string>
+    <string name="create_button"> Create a group </string>
+    <string name="join_activity">Join a group</string>
+    <string name="create_activity"> Create a group </string>
+    <string name="view_map">View Map</string>
+    <string name="take_me">Take me to the Group</string>
+    <string name="itinerary">Show Itinerary</string>
+    <string name="comments">Comments</string>
+    <string name="user_logout">Leave the Group</string>
+    <string name="title_activity_map_user">Map</string>
+    <string name="title_activity_coord_user">CoordUser</string>
+    <string name="list_user">List of the Users</string>
+    <string name="title_activity_itinerary">Itinerary</string>
+    <string name="show_itinerary_title">Show Itinerary</string>
+    <string name="title_activity_itinerary_coord">itinerary_coord</string>
+    <string name="title_activity_add_itinerary">AddItinerary</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_list_of_user">ListOfUser</string>
+    <string name="title_list_user">List Of User</string>
+    <string name="title_activity_prova">prova</string>
+    <string name="title_activity_insertpic">insertpic</string>
+    <string name="title_activity_prova_cap">prova_cap</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="help_text">The buttons are self explanatory <br />  - You can see your position and the center of the GROUP tapping VIEW MAP <br />
+    - TAKE ME TO THE GROUP leads you to the center of the GROUP <br />
+    - POST ITINERARY permits to read the itinerary of the trip <br />
+    - READ COMMENTS permits you to see the comments related to the trip</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
